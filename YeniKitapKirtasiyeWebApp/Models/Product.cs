@@ -10,7 +10,6 @@ namespace YeniKitapKirtasiyeWebApp.Models
     public class Product
     {
         public int ID { get; set; }
-
         public int Category_ID { get; set; }
         [ForeignKey("Category_ID")]
         public virtual Category category { get; set; }
@@ -20,6 +19,8 @@ namespace YeniKitapKirtasiyeWebApp.Models
         public string Name { get; set; }
         public short Stok { get; set; }
         public decimal Price { get; set; }
+
+        [DataType(DataType.MultilineText)]
         public string Description { get; set; }
         public string ImagePath { get; set; }
         public bool IsActive { get; set; }

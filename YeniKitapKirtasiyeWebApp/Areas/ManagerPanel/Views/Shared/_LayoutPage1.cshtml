@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -10,13 +9,13 @@
     <div class="layout">
         <div class="sidebar">
             <div class="brandbar">
-                <h2>Manager Panel</h2>
+                <h2>Yönetici Paneli</h2>
             </div>
             <div style="padding: 24px 20px;">
                 <ul style="list-style: none;">
-                    <a href="">
+                    <a href="@Url.Action("Index","Home")">
                     <li style="margin: 16px 0;">Dashboard</li></a>
-                    <a href="">
+                    <a href="@Url.Action("Index","Category")">
                     <li style="margin: 16px 0;">Kategoriler</li></a>
                 </ul>
             </div>
@@ -30,6 +29,5 @@
             </div>
         </div>
     </div>
-   
 </body>
 </html>

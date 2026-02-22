@@ -135,6 +135,12 @@ body {
     border:1px solid silver;
     width:100vh;
 }
+.form-select {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    width: 100vh;
+}
 .formbutton{
     padding:10px 25px;
     background-color:#f1d7ff;

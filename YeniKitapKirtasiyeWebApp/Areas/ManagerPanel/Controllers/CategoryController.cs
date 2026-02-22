@@ -19,23 +19,6 @@ namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
         {
             return View(db.Categories.ToList());
         }
-
-        // GET: ManagerPanel/Category/Details/5
-        public ActionResult Details(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Category category = db.Categories.Find(id);
-            if (category == null)
-            {
-                return HttpNotFound();
-            }
-            return View(category);
-        }
-
-        // GET: ManagerPanel/Category/Create
         public ActionResult Create()
         {
             return View();
