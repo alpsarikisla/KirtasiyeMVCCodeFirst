@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|c:\\users\\alp\\documents\\github\\kirtasiyemvccodefirst\\yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|c:\\users\\alp\\documents\\github\\kirtasiyemvccodefirst\\yenikitapkirtasiyewebapp\\areas\\managerpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\areas\\managerpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\yenikitapkirtasiyewebapp\\areas\\managerpanel\\assets\\css\\managerstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\areas\\managerpanel\\assets\\css\\managerstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|c:\\users\\alp\\documents\\github\\kirtasiyemvccodefirst\\yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|c:\\users\\alp\\documents\\github\\kirtasiyemvccodefirst\\yenikitapkirtasiyewebapp\\models\\yenikitapkirtasiyedbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\models\\yenikitapkirtasiyedbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|c:\\users\\alp\\documents\\github\\kirtasiyemvccodefirst\\yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\product\\allindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\product\\allindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|c:\\users\\alp\\documents\\github\\kirtasiyemvccodefirst\\yenikitapkirtasiyewebapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|c:\\users\\alp\\documents\\github\\kirtasiyemvccodefirst\\yenikitapkirtasiyewebapp\\areas\\managerpanel\\assets\\css\\managerstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\areas\\managerpanel\\assets\\css\\managerstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|c:\\users\\alp\\documents\\github\\kirtasiyemvccodefirst\\yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|c:\\users\\alp\\documents\\github\\kirtasiyemvccodefirst\\yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CF31848-0BC9-4B31-96AB-686AE834A2A8}|YeniKitapKirtasiyeWebApp\\YeniKitapKirtasiyeWebApp.csproj|solutionrelative:yenikitapkirtasiyewebapp\\areas\\managerpanel\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 23,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ManagerStyle.css",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Assets\\css\\ManagerStyle.css",
-              "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Assets\\css\\ManagerStyle.css",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Assets\\css\\ManagerStyle.css",
-              "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Assets\\css\\ManagerStyle.css",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-22T12:44:04.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Create.cshtml",
               "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Create.cshtml",
               "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDkAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T12:30:01.83Z",
+              "WhenOpened": "2026-02-28T13:58:58.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-28T13:58:51.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Controllers\\ProductController.cs",
               "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwGwAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T12:52:54.299Z",
+              "WhenOpened": "2026-02-28T13:55:07.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "YeniKitapKirtasiyeDBModel.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Models\\YeniKitapKirtasiyeDBModel.cs",
-              "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Models\\YeniKitapKirtasiyeDBModel.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Models\\YeniKitapKirtasiyeDBModel.cs",
-              "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Models\\YeniKitapKirtasiyeDBModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T12:22:11.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Models\\Product.cs",
-              "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Models\\Product.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T12:21:43.742Z",
+              "DocumentIndex": 4,
+              "Title": "AllIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\AllIndex.cshtml",
+              "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\AllIndex.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\AllIndex.cshtml",
+              "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\AllIndex.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-28T13:47:01.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_LayoutPage1.cshtml",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T12:17:55.948Z",
+              "WhenOpened": "2026-02-28T13:39:02.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManagerStyle.css",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Assets\\css\\ManagerStyle.css",
+              "RelativeDocumentMoniker": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Assets\\css\\ManagerStyle.css",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\KirtasiyeMVCCodeFirst\\YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Assets\\css\\ManagerStyle.css",
+              "RelativeToolTip": "YeniKitapKirtasiyeWebApp\\Areas\\ManagerPanel\\Assets\\css\\ManagerStyle.css",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-22T12:44:04.254Z",
               "EditorCaption": ""
             }
           ]

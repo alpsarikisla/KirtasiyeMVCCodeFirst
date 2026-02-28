@@ -70,16 +70,28 @@ body {
     display: flex;
     padding: 10px;
     color: #D587FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
 }
+    .card-title .links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        
+    }
+    
     .card-title a {
         margin-left: auto;
         background-color: #f1d7ff;
-        color:#303030;
+        color: #303030;
         border: 1px solid #D587FF;
-        padding:7px 15px;
-        font-weight:600;
-        text-decoration:none;
-        border-radius:7px;
+        padding: 7px 15px;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 7px;
     }
 .card-body {
     border: 1px solid silver;
@@ -121,8 +133,12 @@ body {
     background-color: lightcoral;
     color: white;
 }
-.row{
-    margin-bottom:15px;
+.gerialbuton {
+    background-color: gold;
+    color: #303030;
+}
+.row {
+    margin-bottom: 15px;
 }
 .control-label
 {
@@ -133,13 +149,13 @@ body {
     padding:7px;
     border-radius:3px;
     border:1px solid silver;
-    width:100vh;
+    width:100%;
 }
 .form-select {
     padding: 7px;
     border-radius: 3px;
     border: 1px solid silver;
-    width: 100vh;
+    width: 100%;
 }
 .formbutton{
     padding:10px 25px;

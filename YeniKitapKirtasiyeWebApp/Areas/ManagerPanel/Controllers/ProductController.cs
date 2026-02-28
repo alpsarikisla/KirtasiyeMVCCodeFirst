@@ -69,5 +69,45 @@ namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
             ViewBag.Category_ID = new SelectList(db.Categories, "ID", "Name", model.Category_ID);
             return View(model);
         }
+        [HttpGet]
+        public ActionResult Edit(int? id) 
+        {
+            if (id == null)
+            {
+                return RedirectToAction("Index","Product");
+            }
+            Product p = db.Products.Find(id);
+            if (p == null)
+            {
+                return RedirectToAction("Index", "Product");
+            }
+            ViewBag.Category_ID = new SelectList(db.Categories, "ID", "Name", p.Category_ID);
+            return View(p);
+        }
+        [HttpPost]
+        public ActionResult Edit(Product model, HttpPostedFileBase urunResim)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    db.Entry(model).State = System.Data.Entity.EntityState.Modified;
+                    if (urunResim != null)
+                    {
+                        FileInfo fi = new FileInfo(urunResim.FileName);
+                        string uzanti = fi.Extension;
+                        string isim = Guid.NewGuid().ToString();
+                        string tamisim = isim + uzanti;
+                        urunResim.SaveAs(Server.MapPath("~/Assets/ProductImages/" + tamisim));
+                        model.ImagePath = tamisim;
+                    }
+                    TempData["basarili"] = "Ürün güncelleme işlemi başarılı";
+                    db.SaveChanges();
+                }
+                catch { TempData["basarisiz"] = "Ürün güncelleme işlemi başarısız"; }
+            }
+            ViewBag.Category_ID = new SelectList(db.Categories, "ID", "Name", model.Category_ID);
+            return View(model);
+        }
     }
 }

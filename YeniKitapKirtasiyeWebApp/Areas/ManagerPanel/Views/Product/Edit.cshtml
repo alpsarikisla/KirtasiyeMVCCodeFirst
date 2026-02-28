@@ -1,0 +1,86 @@
+﻿@model YeniKitapKirtasiyeWebApp.Models.Product
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+    @*IEnumerable<SelectListItem> selectlist = ViewBag.dropdownitems;*@
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <h2>Ürün Güncelle</h2>
+        </div>
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm("Edit", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.HiddenFor(model => model.ID);
+            @Html.HiddenFor(model => model.ImagePath);
+            @Html.HiddenFor(model => model.IsDeleted);
+            if (TempData["basarili"] != null)
+            {
+                <div class="basarili">
+                    @TempData["basarili"]
+                </div>
+            }
+            if (TempData["basarisiz"] != null)
+            {
+                <div class="basarisiz">
+                    @TempData["basarisiz"]
+                </div>
+            }
+            <div style="display: flex; flex-direction: row; ">
+                <div style="padding: 15px; padding-right:45px; width: 50%; display: grid;">
+                    <div class="row">
+                        <label class="control-label">Ürün Adı</label>
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "validationMessage" })
+                    </div>
+                    <div class="row">
+                        <label class="control-label">Kategori Seçiniz</label>
+                        @Html.DropDownList("Category_ID", null, htmlAttributes: new { @class = "form-select" })
+                    </div>
+                    <div class="row">
+                        <label class="control-label">Ürün stok</label>
+                        @Html.EditorFor(model => model.Stok, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Stok, "", new { @class = "validationMessage" })
+                    </div>
+                    <div class="row">
+                        <label class="control-label">Ürün Fiyatı</label>
+                        @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Price, "", new { @class = "validationMessage" })
+                    </div>
+                </div>
+                <div style="padding: 15px; width: 50%; display: grid;">
+                    <div class="row">
+
+                        <label class="control-label">Ürün Açıklama</label>
+                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "validationMessage" })
+                    </div>
+                    <div class="row">
+                        <div style="display:flex">
+                            <div>
+                                <img src="~/Assets/ProductImages/@Model.ImagePath" width="150" />
+                            </div>
+                            <div>
+                                <label class="control-label">Ürün Resim</label>
+                                <input type="file" class="form-control" name="urunResim" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="IsActive">Ürün Yayınla</label>
+                        @Html.EditorFor(model => model.IsActive)
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Ürün Ekle" class="formbutton" />
+                    </div>
+                </div>
+            </div>
+
+
+        }
+    </div>
+</div>
+

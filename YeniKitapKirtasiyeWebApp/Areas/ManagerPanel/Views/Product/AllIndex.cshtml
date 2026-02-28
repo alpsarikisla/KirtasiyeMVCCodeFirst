@@ -1,0 +1,95 @@
+﻿@model IEnumerable<YeniKitapKirtasiyeWebApp.Models.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <h2>Ürün Listesi</h2>
+            <div class="links">
+                <a href="@Url.Action("Create","Product")" class="title-button"> + Yeni Ürün </a> |
+                <a href="@Url.Action("Index","Product")" class="title-button"> Ürünler </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table" cellpadding="0" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Resim</th>
+                    <th>#</th>
+                    <th>Isim</th>
+                    <th>Kategori</th>
+                    <th>Fiyat</th>
+                    <th>Stok</th>
+                    <th>Durum</th>
+                    <th>Seçenekler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item.IsDeleted)
+                    {
+                        <tr style="background-color:#ffcfcf">
+                            <td><img src="~/Assets/ProductImages/@item.ImagePath" width="48" /></td>
+                            <td>@item.ID</td>
+                            <td>@item.Name</td>
+                            <td>@item.category.Name</td>
+                            <td>@item.Price ₺</td>
+                            <td>@item.Stok adet</td>
+                            <td>
+                                @if (item.IsActive)
+                                {
+                                    <label style="color: #303030; text-decoration:line-through">Satışta</label>
+                                }
+                                else
+                                {
+                                    <label style="color: #303030; text-decoration:line-through">Satış Dışı</label>
+                                }
+                            </td>
+                            <td>
+                                <a href="@Url.Action("Edit","Product", new {id = item.ID})" class="tablebutton gerialbuton">Geri Al!</a>
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td><img src="~/Assets/ProductImages/@item.ImagePath" width="48" /></td>
+                            <td>@item.ID</td>
+                            <td>@item.Name</td>
+                            <td>@item.category.Name</td>
+                            <td>@item.Price ₺</td>
+                            <td>@item.Stok adet</td>
+                            <td>
+                                @if (item.IsActive)
+                                {
+                                    <label style="color:lightseagreen">Satışta</label>
+                                }
+                                else
+                                {
+                                    <label style="color:silver">Satış Dışı</label>
+                                }
+                            </td>
+                            <td>
+                                <a href="@Url.Action("Edit","Product", new {id = item.ID})" class="tablebutton duzenlebuton">Düzenle</a>
+                                <a href="@Url.Action("Delete","Product", new {id = item.ID})" class="tablebutton silbuton">Sil</a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="card-footer">
+        <label>@Model.Count() adet ürün bulunmaktadır</label>
+    </div>
+</div>
+
+
+
+
