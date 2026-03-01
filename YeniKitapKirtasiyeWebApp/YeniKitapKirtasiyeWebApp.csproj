@@ -97,16 +97,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\ManagerPanel\Assets\css\AccountingStyle.css" />
     <Content Include="Areas\ManagerPanel\Assets\css\ManagerStyle.css" />
+    <Content Include="Areas\ManagerPanel\Assets\Images\Secure Login.gif" />
     <Content Include="Assets\ProductImages\none.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\ManagerPanel\Controllers\AccountController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\CategoryController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\HomeController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\ProductController.cs" />
+    <Compile Include="Areas\ManagerPanel\Data\ViewModels\ManagerLoginViewModel.cs" />
     <Compile Include="Areas\ManagerPanel\ManagerPanelAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -131,6 +135,7 @@
     <Content Include="Areas\ManagerPanel\Views\Product\Index.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Product\AllIndex.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Product\Edit.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Account\Login.cshtml" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -141,7 +146,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\ManagerPanel\Data\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
   <PropertyGroup>

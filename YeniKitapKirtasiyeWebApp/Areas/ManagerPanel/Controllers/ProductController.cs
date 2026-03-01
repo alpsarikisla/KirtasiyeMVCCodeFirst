@@ -109,5 +109,33 @@ namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
             ViewBag.Category_ID = new SelectList(db.Categories, "ID", "Name", model.Category_ID);
             return View(model);
         }
+
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            Product product = db.Products.Find(id);
+            product.IsDeleted = true;
+            product.IsActive = false;
+            db.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+        public ActionResult BackUp(int? id)
+        {
+            if (id == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            Product product = db.Products.Find(id);
+            product.IsDeleted = false;
+            db.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
     }
 }
