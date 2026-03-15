@@ -10,6 +10,7 @@ namespace YeniKitapKirtasiyeWebApp.Models
     {
         public int ID { get; set; }
 
+        [Required]
         [StringLength(maximumLength:50, ErrorMessage ="En fazla 50 karakter olmalıdır")]
         public string Name { get; set; }
 

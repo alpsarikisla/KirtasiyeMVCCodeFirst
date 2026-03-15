@@ -4,10 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using YeniKitapKirtasiyeWebApp.Filters;
 using YeniKitapKirtasiyeWebApp.Models;
 
 namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
 {
+    [ManagerAuthenticationFilter]
     public class ProductController : Controller
     {
         YeniKitapKirtasiyeDBModel db = new YeniKitapKirtasiyeDBModel();
@@ -22,6 +24,7 @@ namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
             return View(urunler);
         }
         [HttpGet]
+       
         public ActionResult Create() 
         {
 

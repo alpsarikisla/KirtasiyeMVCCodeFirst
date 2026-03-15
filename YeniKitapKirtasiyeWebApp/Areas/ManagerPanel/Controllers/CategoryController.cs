@@ -6,10 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using YeniKitapKirtasiyeWebApp.Filters;
 using YeniKitapKirtasiyeWebApp.Models;
 
 namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
 {
+   [ManagerAuthenticationFilter]
     public class CategoryController : Controller
     {
         private YeniKitapKirtasiyeDBModel db = new YeniKitapKirtasiyeDBModel();
@@ -17,6 +19,7 @@ namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
         // GET: ManagerPanel/Category
         public ActionResult Index()
         {
+           
             return View(db.Categories.ToList());
         }
         public ActionResult Create()

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Data.ViewModels;
+using YeniKitapKirtasiyeWebApp.Filters;
 using YeniKitapKirtasiyeWebApp.Models;
 
 namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers

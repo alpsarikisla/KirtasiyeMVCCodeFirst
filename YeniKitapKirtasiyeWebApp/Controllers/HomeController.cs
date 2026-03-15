@@ -3,17 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using YeniKitapKirtasiyeWebApp.Filters;
 
-namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
+namespace YeniKitapKirtasiyeWebApp.Controllers
 {
-    [ManagerAuthenticationFilter]
     public class HomeController : Controller
     {
-        // GET: ManagerPanel/Home
+        // GET: Home
         public ActionResult Index()
         {
-            
             return View();
         }
     }
