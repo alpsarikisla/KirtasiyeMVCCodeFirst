@@ -1,0 +1,35 @@
+﻿@using YeniKitapKirtasiyeWebApp.Models
+@model IEnumerable<Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<div class="productsContainer">
+    @foreach (Product item in Model)
+    {
+        <div class="productItem">
+            <img src="~/Assets/ProductImages/@item.ImagePath" />
+            <div class="name">
+                @item.Name
+            </div>
+            <div class="category">
+                @item.category.Name
+            </div>
+            <div class="other">
+                @{
+                    decimal normal = item.Price;
+                    decimal zamli = item.Price * 1.25m;
+                }
+                <span class="zamliFiyat">@zamli.ToString("F2") ₺</span>  <span class="zamliNormal"> @item.Price ₺</span>
+            </div>
+            <div class="addcart">
+                <a href="@Url.Action("SepeteEkle", "Urun", new {id = item.ID})">
+                    Sepete Ekle
+                </a>
+            </div>
+        </div>
+    }
+
+
+
+</div>

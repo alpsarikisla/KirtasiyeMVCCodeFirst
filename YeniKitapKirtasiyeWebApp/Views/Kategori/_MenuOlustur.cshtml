@@ -1,0 +1,11 @@
+﻿@using YeniKitapKirtasiyeWebApp.Models
+@model IEnumerable<Category>
+
+@foreach (Category item in Model)
+{
+    <li>
+        <a href="@Url.Action("Listele", "Kategori", new {id=item.ID})">
+            @item.Name
+        </a>
+    </li>
+}

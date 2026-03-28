@@ -11,7 +11,7 @@ using YeniKitapKirtasiyeWebApp.Models;
 
 namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
 {
-   [ManagerAuthenticationFilter]
+   
     public class CategoryController : Controller
     {
         private YeniKitapKirtasiyeDBModel db = new YeniKitapKirtasiyeDBModel();

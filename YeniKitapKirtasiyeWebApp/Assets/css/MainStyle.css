@@ -1,0 +1,92 @@
+﻿*,h1,h2,h3,h4,h5,h6{
+    margin:0px; padding:0px;
+}
+body {
+    font-family:Poppins
+}
+.mainContainer
+{
+    width:1200px;
+    margin:0 auto;
+}
+.header
+{
+    
+}
+.logoBase
+{
+
+}
+.logoBase img{
+    width:200px;
+}
+.menu {
+    padding: 10px 0;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+    .menu ul {
+        list-style-type: none;
+        display: flex;
+    }
+        .menu ul li a {
+            padding: 4px;
+            text-decoration: none;
+            color: #D47B17
+        }
+            .menu ul li a:hover {
+                color: #F5AA44
+            }
+.productsContainer{
+    display:flex;
+    gap:10px;
+    margin-top:25px;
+}
+.productItem {
+    width:200px;
+    padding:10px 5px;
+    border:1px solid silver;
+    border-radius:5px;
+}
+.productItem:hover {
+    cursor:pointer;
+    -webkit-box-shadow: 5px 5px 15px -9px rgba(0,0,0,0.50);
+    box-shadow: 5px 5px 15px -9px rgba(0,0,0,0.50);
+}
+.productItem img {
+    width: 100%;
+}
+    .productItem .name
+    {
+        min-height:40px;
+        font-size:10pt;
+    }
+    .productItem .category {
+        min-height: 20px;
+        font-size: 8pt;
+        color: #F5AA44;
+    }
+    .productItem .other {
+        font-size: 13pt;
+    }
+        .productItem .other .zamliFiyat {
+            text-decoration:line-through;
+            font-size:12pt;
+        }
+        .productItem .other .zamliNormal {
+            font-weight:600;
+            color:#F5AA44;
+            padding-left:7px;
+        }
+    .productItem .addcart {
+        background-color: #F5AA44;
+        display: block;
+        text-align: center;
+        border-radius: 5px;
+        margin-top:7px;
+    }
+    .productItem .addcart a{
+        text-decoration:none;
+        color:white;
+    }
+

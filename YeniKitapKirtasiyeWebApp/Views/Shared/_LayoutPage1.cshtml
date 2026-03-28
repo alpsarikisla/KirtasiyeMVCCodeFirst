@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Assets/css/MainStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="header">
+            <div class="headbase">
+                <div class="logoBase">
+                    <img src="~/Assets/SiteImages/Ykk_logo.jpg" />
+                </div>
+                <div class="userBase">
+
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    @{Html.RenderAction("_MenuOlustur", "Kategori");}
+                </ul>
+                
+            </div>
+        </div>
+        @RenderBody()
+    </div>
+</body>
+</html>

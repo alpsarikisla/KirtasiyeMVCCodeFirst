@@ -7,14 +7,18 @@ using YeniKitapKirtasiyeWebApp.Models;
 
 namespace YeniKitapKirtasiyeWebApp.Controllers
 {
-    public class HomeController : Controller
+    public class KategoriController : Controller
     {
         YeniKitapKirtasiyeDBModel db = new YeniKitapKirtasiyeDBModel();
-        // GET: Home
+
+        // GET: Kategori
         public ActionResult Index()
         {
-            List<Product> products = db.Products.Where(x => x.IsDeleted == false && x.IsActive == true).ToList();
-            return View(products);
+            return View();
+        }
+        public ActionResult _MenuOlustur()
+        {
+            return View(db.Categories.Where(x=> x.IsActive).ToList());
         }
     }
 }

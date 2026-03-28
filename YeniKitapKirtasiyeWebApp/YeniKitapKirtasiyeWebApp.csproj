@@ -100,7 +100,11 @@
     <Content Include="Areas\ManagerPanel\Assets\css\AccountingStyle.css" />
     <Content Include="Areas\ManagerPanel\Assets\css\ManagerStyle.css" />
     <Content Include="Areas\ManagerPanel\Assets\Images\Secure Login.gif" />
+    <Content Include="Assets\css\MainStyle.css" />
     <Content Include="Assets\ProductImages\none.jpg" />
+    <Content Include="Assets\SiteImages\WhatsApp Image 2026-03-28 at 15.27.51.jpeg" />
+    <Content Include="Assets\SiteImages\Ykk_logo.jpg" />
+    <Content Include="Assets\SiteImages\Şahin_Kırtasiye.png" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -113,11 +117,14 @@
     <Compile Include="Areas\ManagerPanel\Data\ViewModels\ManagerLoginViewModel.cs" />
     <Compile Include="Areas\ManagerPanel\ManagerPanelAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KategoriController.cs" />
+    <Compile Include="Controllers\UrunController.cs" />
     <Compile Include="Filters\ManagerAuthenticationFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\Product.cs" />
@@ -139,6 +146,9 @@
     <Content Include="Areas\ManagerPanel\Views\Product\Edit.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Account\Login.cshtml" />
     <None Include="packages.config" />
+    <Content Include="Views\Shared\_LayoutPage1.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Kategori\_MenuOlustur.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -148,8 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Home\" />
-    <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Urun\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

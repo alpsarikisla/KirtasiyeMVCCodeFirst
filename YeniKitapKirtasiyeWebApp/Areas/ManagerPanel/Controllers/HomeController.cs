@@ -7,7 +7,7 @@ using YeniKitapKirtasiyeWebApp.Filters;
 
 namespace YeniKitapKirtasiyeWebApp.Areas.ManagerPanel.Controllers
 {
-    [ManagerAuthenticationFilter]
+    //[ManagerAuthenticationFilter]
     public class HomeController : Controller
     {
         // GET: ManagerPanel/Home
