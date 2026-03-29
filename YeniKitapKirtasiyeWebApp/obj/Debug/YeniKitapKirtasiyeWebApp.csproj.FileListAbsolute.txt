@@ -150,3 +150,5 @@ C:\Users\Alp\Documents\GitHub\KirtasiyeMVCCodeFirst\YeniKitapKirtasiyeWebApp\obj
 C:\Users\Alp\Documents\GitHub\KirtasiyeMVCCodeFirst\YeniKitapKirtasiyeWebApp\obj\Debug\YeniKita.7874C4DB.Up2Date
 C:\Users\Alp\Documents\GitHub\KirtasiyeMVCCodeFirst\YeniKitapKirtasiyeWebApp\obj\Debug\YeniKitapKirtasiyeWebApp.dll
 C:\Users\Alp\Documents\GitHub\KirtasiyeMVCCodeFirst\YeniKitapKirtasiyeWebApp\obj\Debug\YeniKitapKirtasiyeWebApp.pdb
+C:\Users\Alp\Documents\GitHub\KirtasiyeMVCCodeFirst\YeniKitapKirtasiyeWebApp\bin\Newtonsoft.Json.dll
+C:\Users\Alp\Documents\GitHub\KirtasiyeMVCCodeFirst\YeniKitapKirtasiyeWebApp\bin\Newtonsoft.Json.xml

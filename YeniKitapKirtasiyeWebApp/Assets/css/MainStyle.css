@@ -89,4 +89,22 @@ body {
         text-decoration:none;
         color:white;
     }
+.sepettablo {
+    width: 100%;
+}
+.sepettablo tr td {
+    padding:7px;
+    border-bottom:1px solid silver;
+    text-align:center;
+}
+    .sepettablo .eleman:hover
+    {
+        background-color:#f3f3f3;
+        cursor:pointer;
+    }
+    .sepettablo tr th {
+        padding: 7px;
+        border-bottom: 2px solid silver;
+        background-color: #f3f3f3;
+    }
 
