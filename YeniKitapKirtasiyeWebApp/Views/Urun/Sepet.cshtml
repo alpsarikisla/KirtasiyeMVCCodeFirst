@@ -4,44 +4,54 @@
     ViewBag.Title = "Sepet";
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
 }
+<div class="sepettasiyici">
+    <div class="baslik">Sepetiniz</div>
 
-@if (Model.Count() != 0)
-{
-    <table  class="sepettablo" cellpadding="0" cellspacing="0">
-        <tr>
-            <th>No</th>
-            <th>Ürün</th>
-            <th>Fiyat</th>
-            <th>Adet</th>
-        </tr>
-        @foreach (CartItem item in Model)
-        {
-            <tr class="eleman">
-                <td>@item.ID</td>
-                <td>@item.Name</td>
-                <td>@item.Price ₺</td>
-                <td>
-                    <a href="@Url.Action("Azalt","Urun", new {id=item.ID})">-</a>
-                    @item.Quantity
-                    <a href="@Url.Action("Arttir","Urun", new {id=item.ID})">+</a>
-                </td>
-            </tr>
-        }
-        <tr>
-            <td colspan="2" style="text-align:right; margin-right:10px;"><b>Toplam</b> </td>
-            <td colspan="2" style="margin-left:10px;">
-                <b>@Model.Sum(x => (x.Price * x.Quantity)) ₺</b>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="4" style="text-align:right">
-                <a href="@Url.Action("sepetiBosalt","Urun")">Sepeti Boşalt</a>
-            </td>
-        </tr>
-    </table>
-}
-else
-{
-    <p>Sepetiniz Boş</p>
-}
+    @if (Model.Count() != 0)
+    {
+        <div class="sepet">
+            <table class="sepettablo" cellpadding="0" cellspacing="0">
+                @foreach (CartItem item in Model)
+                {
+                    <tr class="eleman">
+                        <td>@item.ID</td>
+                        <td>@item.Name</td>
+                        <td>@item.Price ₺</td>
+                        <td>
+                            <a href="@Url.Action("Azalt","Urun", new {id=item.ID})" class="arttir ">-</a>
+                            <span class="adet fixspace"> @item.Quantity</span>
+                            <a href="@Url.Action("Arttir","Urun", new {id=item.ID})" class="azalt fixspace">+</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+            <img src="~/Assets/SiteImages/guvenlik.png" />
+        </div>
+        <div class="sepettoplam">
+            <div class="sepettoplamBaslik">
+                Toplam Bakiye
+            </div>
+            <div class="icerik">
+                <div class="satir">
+                    <b>Ara Toplam = </b> @Model.Sum(x => (x.Price * x.Quantity)) ₺
+                </div>
+                <div class="satir">
+                    <b>KDV = </b> @Model.Sum(x => (x.Price * x.Quantity)) ₺
+                </div>
+                <div class="satir">
+                    <b>Genel Toplam = </b> @Model.Sum(x => (x.Price * x.Quantity)) ₺
+                </div>
+            </div>
 
+            <div class="odemeEkrani">
+                <a href="@Url.Action("Ode","Urun")">Ödeme Ekranına Geç</a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>Sepetiniz Boş</p>
+    }
+
+
+</div>

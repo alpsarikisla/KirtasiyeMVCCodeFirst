@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "PaymentSuccess";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="successBox">
+
+    <img src="~/Assets/SiteImages/Verified.gif" width="200" />
+    <h1>Ödeme Başarılı</h1>
+    <a href="@Url.Action("Index","Home")">Ana Sayfaya Dön</a><br />
+    <a href="@Url.Action("MyOrders","Account")">Siparişlerim</a>
+</div>
+
